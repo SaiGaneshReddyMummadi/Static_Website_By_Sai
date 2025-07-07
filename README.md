@@ -1,5 +1,11 @@
 ## What is this?
 
+##  Project by:
+**M. Sai Ganesh Reddy**
+
+##  Live URL
+[View Website](http://static-website-by-sai-ganesh.s3-website.eu-north-1.amazonaws.com)
+
 This is an **AWS Lambda@Edge** function to enable **static website hosting on AWS S3 via CloudFront** with beautiful page URLs without .html suffixes and without requiring other hacks.
 
 
@@ -18,6 +24,13 @@ Whenever CloudFront needs to request an object from the origin (e.g. S3 bucket),
 
 If the object is already cached by the CloudFront edge this function will not be triggered.
 
+
+## 🛠 Technologies Used
+
+- AWS S3
+- HTML/CSS
+- Git & GitHub
+- VS Code
 
 ## Configuration options
 
@@ -67,3 +80,23 @@ Find more information about AWS Lambda@Edge here: https://docs.aws.amazon.com/la
 Do whatever you want. A link back to this [repository](https://github.com/CloudUnder/lambda-edge-nice-urls), comments, feedback, contributions are appreciated, but not required.
 
 [Cloud Under Ltd](https://cloudunder.io) is a small web engineering company based in Manchester, UK.
+
+
+
+##  Use Case
+
+Perfect for hosting:
+- Personal Portfolios
+- Blogs & Documentation
+- Landing Pages
+
+---
+
+###  Author Notes
+
+This is a cloud-based mini-project completed as part of my cloud computing internship to showcase hands-on experience in deploying a real-world static site.
+
+---
+
+© 2025 | Cloud Project by Mummadi Sai Ganesh Reddy
+
